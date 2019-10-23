@@ -32,7 +32,6 @@ public class OAuth2Token implements AuthenticationToken {
         this.principal = principal;
     }
 
-    @Override
     public Object getCredentials() {
         return authCode;
     }
